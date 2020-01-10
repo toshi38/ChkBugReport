@@ -11,5 +11,6 @@ public class BugReportModuleTest {
         Context context = new Context();
         BugReportModule sut = new BugReportModule(context);
         assertNotEquals(null, sut);
+        assertNotEquals(true, true);
     }
 }
